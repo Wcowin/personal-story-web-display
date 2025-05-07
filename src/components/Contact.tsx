@@ -11,6 +11,9 @@ const Contact = () => {
           <p className="mt-4 text-gray-600 max-w-xl mx-auto">
             有任何问题或合作机会，欢迎随时与我联系，我会尽快回复您。
           </p>
+          <p className="mt-4 text-gray-600 max-w-xl mx-auto">
+          个人博客：<a href="https://wcowin.work/" target="_blank" rel="noopener noreferrer">https://wcowin.work/</a>
+          </p>
         </div>
         
         <div className="max-w-3xl mx-auto">

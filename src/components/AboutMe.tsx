@@ -17,26 +17,32 @@ const AboutMe = () => {
         <div className="max-w-4xl mx-auto">
           <Tabs defaultValue="story" className="w-full" onValueChange={setActiveTab}>
             <TabsList className="grid w-full grid-cols-3 mb-8">
-              <TabsTrigger value="story">我的故事</TabsTrigger>
+              <TabsTrigger value="story">关于我</TabsTrigger>
               <TabsTrigger value="education">教育背景</TabsTrigger>
               <TabsTrigger value="experience">工作经历</TabsTrigger>
             </TabsList>
             
-            <TabsContent value="story">
-              <Card className="p-6">
-                <h3 className="text-xl font-semibold mb-4">我的人生旅程</h3>
-                <p className="text-gray-700 mb-4">
-                  我从小对技术充满好奇心，喜欢计算机技术。这种好奇心引导我走上了Programming的道路。
-                </p>
-                <p className="text-gray-700 mb-4">
-                  在大学期间，我发现自己对解决问题和创造有用的软件产品充满热情。
-                </p>
-                <p className="text-gray-700">
-                  如今，我转型致力于研究密码学。
-                  我相信技术的力量可以改变世界，让生活变得更美好。
-                </p>
-              </Card>
-            </TabsContent>
+
+<TabsContent value="story">
+  <Card className="p-6">
+    <h3 className="text-xl font-semibold mb-4">Who am I</h3>
+    {/* <p className="text-gray-700 mb-4">
+      从小我就对技术充满好奇，喜欢钻研计算机。这份好奇心引领我走上了编程之路。在大学期间，我发现自己热爱解决问题，也喜欢创造有用的软件产品。如今，我专注于密码学研究，坚信技术的力量能够改变世界，让生活变得更美好。
+    </p> */}
+    <ul className="list-disc pl-6 text-gray-700 space-y-1">
+      <li>
+        Hey, I'm <a href="https://wcowin.work/VitePress/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">Wcowin</a> ~
+      </li>
+      <li>咖啡重度爱好者</li>
+      <li>
+        热爱折腾技术/数学，目前研究领域为
+        <a href="https://ctf-wiki.org/crypto/introduction/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">密码学</a>
+      </li>
+      <li>读书明志可识春秋；诗词爱好者；喜欢村上春树；擅长羽毛球</li>
+      <li>清醒，知趣，明得失，知进退</li>
+    </ul>
+  </Card>
+</TabsContent>
             
             <TabsContent value="education">
               <Card className="p-6">
