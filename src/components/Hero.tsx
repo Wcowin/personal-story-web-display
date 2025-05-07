@@ -15,9 +15,9 @@ const Hero = () => {
               你好，我是<span className="text-blue-600">王科文</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-lg animate-fade-in" style={{animationDelay: "0.2s"}}>
-              软件开发工程师 | 咖啡爱好者 | 终身学习者
+              软件开发工程师 | 咖啡爱好者
             </p>
-            <div className="flex space-x-4 animate-fade-in" style={{animationDelay: "0.4s"}}>
+            <div className="flex justify-center md:justify-start space-x-4 animate-fade-in" style={{animationDelay: "0.4s"}}>
               <Button className="bg-blue-600 hover:bg-blue-700">
                 <a href="#contact">联系我</a>
               </Button>
@@ -36,11 +36,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <a href="#about" className="text-blue-600 hover:text-blue-800">
             <ArrowDownCircle size={36} />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -9,12 +9,12 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <h3 className="text-xl font-bold">王科文</h3>
+            <h3 className="text-xl font-bold">Wcowin</h3>
             <p className="text-gray-400 mt-1">A student | 开发爱好者</p>
           </div>
           
           <div className="flex space-x-6 mb-4 md:mb-0">
-            <a href="wcowin@qq.com" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+            <a href="mailto:<wangkewen821@gmail.com>" target="_blank" className="text-gray-400 hover:text-white transition-colors">
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M2.25 6.75A2.25 2.25 0 0 1 4.5 4.5h15a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-15A2.25 2.25 0 0 1 2.25 17.25V6.75zm1.5 0v.638l8.25 5.512 8.25-5.512V6.75a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75zm16.5 1.862l-7.728 5.167a.75.75 0 0 1-.844 0L3.75 8.612v8.638c0 .414.336.75.75.75h15a.75.75 0 0 0 .75-.75V8.612z"/>
               </svg>
