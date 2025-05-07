@@ -2,9 +2,11 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const AboutMe = () => {
   const [activeTab, setActiveTab] = useState("story");
+  const isMobile = useIsMobile();
   
   return (
     <section id="about" className="py-20 bg-white">
@@ -16,7 +18,7 @@ const AboutMe = () => {
         
         <div className="max-w-4xl mx-auto">
           <Tabs defaultValue="story" className="w-full" onValueChange={setActiveTab}>
-            <TabsList className="grid w-full grid-cols-3 mb-8">
+            <TabsList className={`grid w-full ${isMobile ? 'grid-cols-1 gap-2' : 'grid-cols-3'} mb-8`}>
               <TabsTrigger value="story">关于我</TabsTrigger>
               <TabsTrigger value="education">教育背景</TabsTrigger>
               <TabsTrigger value="experience">工作经历</TabsTrigger>
