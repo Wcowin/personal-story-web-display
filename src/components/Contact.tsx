@@ -23,7 +23,7 @@ const Contact = () => {
                   <Mail className="h-7 w-7 text-blue-600" />
                 </div>
                 <h4 className="font-medium text-gray-800 mb-1">电子邮件</h4>
-                <p className="text-gray-600">zhangming@example.com</p>
+                <p className="text-gray-600">wcowin@qq.com</p>
               </div>
               
               <div className="flex flex-col items-center text-center">
@@ -31,7 +31,7 @@ const Contact = () => {
                   <Phone className="h-7 w-7 text-blue-600" />
                 </div>
                 <h4 className="font-medium text-gray-800 mb-1">电话</h4>
-                <p className="text-gray-600">+86 138 1234 5678</p>
+                <p className="text-gray-600">18939533255</p>
               </div>
               
               <div className="flex flex-col items-center text-center">
@@ -39,7 +39,7 @@ const Contact = () => {
                   <MapPin className="h-7 w-7 text-blue-600" />
                 </div>
                 <h4 className="font-medium text-gray-800 mb-1">地址</h4>
-                <p className="text-gray-600">北京市海淀区中关村大街1号</p>
+                <p className="text-gray-600">重庆市南岸区学府大道19号</p>
               </div>
             </div>
           </div>
