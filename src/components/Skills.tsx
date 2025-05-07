@@ -4,11 +4,10 @@ import { Badge } from "@/components/ui/badge";
 
 const Skills = () => {
   const technicalSkills = [
-    { name: "JavaScript/TypeScript", level: 90 },
+    { name: "HTML/CSS/Javascript", level: 90 },
     { name: "React/Next.js", level: 85 },
     { name: "Node.js", level: 80 },
     { name: "Python", level: 75 },
-    { name: "SQL/数据库", level: 70 },
   ];
   
   const softSkills = [
@@ -25,7 +24,6 @@ const Skills = () => {
     "人工智能",
     "机器学习",
     "用户体验设计",
-    "创业",
     "阅读",
     "旅行",
     "摄影",

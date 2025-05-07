@@ -12,10 +12,10 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4 animate-fade-in">
-              你好，我是<span className="text-blue-600">张明</span>
+              你好，我是<span className="text-blue-600">王科文</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-lg animate-fade-in" style={{animationDelay: "0.2s"}}>
-              软件工程师 | 产品爱好者 | 终身学习者
+              软件开发工程师 | 咖啡爱好者 | 终身学习者
             </p>
             <div className="flex space-x-4 animate-fade-in" style={{animationDelay: "0.4s"}}>
               <Button className="bg-blue-600 hover:bg-blue-700">
@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl animate-scale-in">
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
+                src="https://s1.imagehub.cc/images/2025/05/05/e7166d5970748332f6e8097efc04a5cd.png" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />

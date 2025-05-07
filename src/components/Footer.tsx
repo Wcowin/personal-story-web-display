@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <h3 className="text-xl font-bold">张明</h3>
-            <p className="text-gray-400 mt-1">软件工程师 | 产品爱好者</p>
+            <h3 className="text-xl font-bold">王科文</h3>
+            <p className="text-gray-400 mt-1">A student | 开发爱好者</p>
           </div>
           
           <div className="flex space-x-6 mb-4 md:mb-0">
@@ -34,7 +34,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-6 pt-6 text-center">
           <p className="text-gray-400">
-            &copy; {currentYear} 张明. 保留所有权利. 
+            &copy; {currentYear} 王科文. 保留所有权利. 
             <span className="flex items-center justify-center mt-2">
               Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> in China
             </span>
