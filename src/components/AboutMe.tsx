@@ -18,30 +18,29 @@ const AboutMe = () => {
         
         <div className="max-w-4xl mx-auto">
           <Tabs defaultValue="story" className="w-full" onValueChange={setActiveTab}>
-            <TabsList className={`grid w-full ${isMobile ? 'grid-cols-1 gap-2' : 'grid-cols-3'} mb-8`}>
-              <TabsTrigger value="story" className="py-3">关于我</TabsTrigger>
-              <TabsTrigger value="education" className="py-3">教育背景</TabsTrigger>
-              <TabsTrigger value="experience" className="py-3">工作经历</TabsTrigger>
+            <TabsList className={`grid w-full ${isMobile ? 'grid-cols-1 gap-3' : 'grid-cols-3'} mb-8`}>
+              <TabsTrigger value="story" className={`py-3 ${isMobile ? 'text-sm' : ''}`}>关于我</TabsTrigger>
+              <TabsTrigger value="education" className={`py-3 ${isMobile ? 'text-sm' : ''}`}>教育背景</TabsTrigger>
+              <TabsTrigger value="experience" className={`py-3 ${isMobile ? 'text-sm' : ''}`}>工作经历</TabsTrigger>
             </TabsList>
             
-
-<TabsContent value="story">
-  <Card className="p-4 md:p-6">
-    <h3 className="text-xl font-semibold mb-4">Who am I</h3>
-    <ul className="list-disc pl-5 md:pl-6 text-gray-700 space-y-2">
-      <li>
-        Hey, I'm <a href="https://wcowin.work/VitePress/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">Wcowin</a> ~
-      </li>
-      <li>咖啡重度爱好者</li>
-      <li>
-        热爱折腾技术/数学，目前研究领域为
-        <a href="https://ctf-wiki.org/crypto/introduction/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">密码学</a>
-      </li>
-      <li>读书明志可识春秋；诗词爱好者；喜欢村上春树；擅长羽毛球</li>
-      <li>清醒，知趣，明得失，知进退</li>
-    </ul>
-  </Card>
-</TabsContent>
+            <TabsContent value="story">
+              <Card className="p-4 md:p-6">
+                <h3 className="text-xl font-semibold mb-4">Who am I</h3>
+                <ul className="list-disc pl-5 md:pl-6 text-gray-700 space-y-2">
+                  <li>
+                    Hey, I'm <a href="https://wcowin.work/VitePress/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">Wcowin</a> ~
+                  </li>
+                  <li>咖啡重度爱好者</li>
+                  <li>
+                    热爱折腾技术/数学，目前研究领域为
+                    <a href="https://ctf-wiki.org/crypto/introduction/" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">密码学</a>
+                  </li>
+                  <li>读书明志可识春秋；诗词爱好者；喜欢村上春树；擅长羽毛球</li>
+                  <li>清醒，知趣，明得失，知进退</li>
+                </ul>
+              </Card>
+            </TabsContent>
             
             <TabsContent value="education">
               <Card className="p-4 md:p-6">
@@ -66,7 +65,6 @@ const AboutMe = () => {
               <Card className="p-4 md:p-6">
                 <h3 className="text-xl font-semibold mb-4">工作经历</h3>
                 <div className="space-y-6">
-
                   <div>
                     <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-1">
                       <h4 className="font-semibold">前端工程师</h4>
@@ -75,7 +73,6 @@ const AboutMe = () => {
                     <p className="text-blue-600 mb-2">Wcowin科技创新公司</p>
                     <p className="text-gray-700">负责核心产品开发，优化性能并实现新功能，独立开发者。</p>
                   </div>
-
                 </div>
               </Card>
             </TabsContent>
